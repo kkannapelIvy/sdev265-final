@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.index-page-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(index-page.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Styling for navigation bar */
+.nav-list {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 6rem;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-list a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for index page */
+.home-main-container {
+    font-weight: bolder;
+    margin-top: 4em;
+    margin-left: 4rem;
+    width: 60%;
+    font-size: 2rem;
+}
+
+/* Styling for Camping page */
+
+.camping-container {
+    border: 1px red solid;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+}
+
+.camping-welcome-message {
+    border: 1px solid blue;
+    background: #004643;
+    color: #abd1c6;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+.camping-welcome-message h3{
+    color: #fffffe;
+    font-size: 2rem;
+}
+.campsite-locations {
+    border: 1px solid green;
+}
+
+.campsite {
+    border: 1px solid yellow;
+}
+
+/* Styling for Contact page */
+
+.contact-container {
+    text-align: center;
+    background: #e8e4e6;
+}
+
+.contact-form {
+    border: 1px solid red;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
