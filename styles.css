@@ -50,6 +50,42 @@ body {
     font-size: 2rem;
 }
 
+/* Styling for Wildlife Page */
+.wildlife-main-container {
+    text-align: center;
+    background: #004643;
+    color: #abd1c6;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.wildlife-main-content h3 {
+    margin-top: 0;
+    color: #fffffe;
+    font-size: 2em;
+    padding-top: 2rem;
+}
+
+.wildlife-main-content p {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.wildlife-main-content p:last-of-type {
+    padding-bottom: 3rem;
+}
+
+.wildlife-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+
+.wildlife-card {
+    border: 1px solid red;
+}
+
 /* Styling for Camping page */
 
 .camping-container {
@@ -81,31 +117,7 @@ body {
     border: 1px solid yellow;
 }
 
-/* Styling for Wildlife Page */
 
-.wildlife-main-container {
-    text-align: center;
-    background: #004643;
-    color: #abd1c6;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-.wildlife-main-content h3 {
-    margin-top: 0;
-    color: #fffffe;
-    font-size: 2em;
-    padding-top: 2rem;
-}
-
-.wildlife-main-content p {
-    margin-right: 10rem;
-    margin-left: 10rem;
-}
-
-.wildlife-main-content p:last-of-type {
-    padding-bottom: 3rem;
-}
 /* Styling for Contact page */
 
 .contact-container {
