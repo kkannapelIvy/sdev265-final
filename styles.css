@@ -137,11 +137,29 @@ body {
     font-size: 2rem;
 }
 .campsite-locations {
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
 }
 
 .campsite {
-    border: 1px solid yellow;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e8e4e6;
+}
+
+.campsite h4 {
+    color: #001e1d;
+}
+
+.campsite p {
+    color: #0f3433;
 }
 
 
