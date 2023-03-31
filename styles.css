@@ -41,6 +41,21 @@ body {
     padding-bottom: 1rem;
 }
 
+.nav-list li a span {
+    background: linear-gradient(to right, white 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover span {
+    background-position: right bottom;
+  }
+  
+  nav ul li a:hover {
+    color: #f9bc60;
+}
+
 /* Styling for index page */
 .home-main-container {
     font-weight: bolder;
