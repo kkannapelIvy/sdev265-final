@@ -13,4 +13,6 @@
 - This is the link to Pexels' website: https://www.pexels.com/
 - Color pallette used for this site were taken from the website Happy Hues. 
 - This is the link to the Happy Hues website: https://www.happyhues.co/palettes/10
+- Campsite locations and descriptions were taken from the following site: https://www.thebrokebackpacker.com/camping-in-indiana-usa/
+
 
