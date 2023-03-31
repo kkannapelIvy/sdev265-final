@@ -116,14 +116,12 @@ body {
 /* Styling for Camping page */
 
 .camping-container {
-    border: 1px red solid;
     display: grid;
     grid-template-columns: 40% 60%;
     height: 100%;
 }
 
 .camping-welcome-message {
-    border: 1px solid blue;
     background: #004643;
     color: #abd1c6;
     font-weight: bolder;
