@@ -160,6 +160,11 @@ body {
     color: #0f3433;
 }
 
+/* Styles Map on Campsite Page */
+#map {
+    height: 70%;
+    width: 100%;
+}
 
 /* Styling for Contact page */
 
